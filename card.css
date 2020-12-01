@@ -1,0 +1,38 @@
+body {
+    justify-content: center;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transition: all .5s;
+}
+
+.face {
+    width: 100px;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+#front {
+    background-color: teal;
+    transform: rotateY(180deg);
+}
+
+#back {
+    background-color: tomato;
+    transform: rotateY(0deg);
+}
+
+.flip {
+    transform: rotateY(180deg);
+}
+
+img.imgcard {
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,12 @@
+@import url(./custom.css);
+@import url(./bootstrap.min.css);
+@import url(./collapse.css);
+@import url(./card.css);
+
+:root {
+    --color-background: #F0F0F7;
+    --color-primary-lighter:#c8d6e5;
+    --color-primary-light:#576574;
+    --color-primary: #222f3e;
+    --color-secondary:#718093;
+}

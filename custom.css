@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("imagem/depression.svg");
+    background-color: var(--color-primary-lighter);
+    justify-content: center;
+    display: inline-flexbox;
+}
+
+header .cabecalho {
+    width: 920px;
+    height: auto;
+}
+
+.page-header {
+    background-color: var(--color-primary);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    align-items: center;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+.title-header {
+    margin-top: 30px;
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    color: var(--color-background);
+    font-size: 150px;
+    font-family: 'Nerko One', cursive;
+}
+
+#according {
+    width: 1280px;
+    float: left;
+}
+
+#carouselExampleSlidesOnly {
+    float: right;
+}
